@@ -24,7 +24,8 @@ var server = http.createServer(app);
 /**
  *  Create socket.io connect.
  */
-var io = require('socket.io')(server);
+
+ var io = require('socket.io')(server);
 io.on('connection', function(socket) {
   console.log('A use connected.');
 })
