@@ -27,12 +27,12 @@
             "error",
             "windows"
         ],
-        "node/exports-style": [
+        "no-multiple-empty-lines": [
             "error",
-            "module.exports"
+            {
+                "max": 1
+            }
         ],
-        "node/no-extraneous-import": "error",
-        "node/no-missing-import": "error",
         "quotes": [
             "error",
             "single"
@@ -40,6 +40,12 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "node/exports-style": [
+            "error",
+            "module.exports"
+        ],
+        "node/no-extraneous-import": "error",
+        "node/no-missing-import": "error"
     }
 }
